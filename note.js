@@ -13,7 +13,7 @@
 //second solition
 
 const getNotes = function () {
-    return 'Your notes...'
+    return 'Your notes... /n a secon text'
 }
 
 module.exports = getNotes
