@@ -17,3 +17,4 @@ const getNotes = function () {
 }
 
 module.exports = getNotes
+
