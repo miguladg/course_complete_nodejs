@@ -1,11 +1,11 @@
 {
   "dependencies": {
+    "chalk": "^2.4.1",
     "validator": "^10.8.0"
   },
   "name": "nodej_developer_course",
   "version": "1.0.0",
   "main": "Utils.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

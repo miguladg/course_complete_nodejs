@@ -1,5 +1,7 @@
+
 const validator = require('validator')
-const getNoteS = require('./notes.js')
+const getNoteS = require('./note')
+const chalk = require('chalk')
 // set 2
 // It's necesari change the name' funtion because is more clear for us and can understantr better, thanks
 // Remenber we can change the name of the funtion for the funtion.
@@ -18,4 +20,12 @@ const getNoteS = require('./notes.js')
 const mgs = getNoteS()
 console.log(mgs)
 
-console.log(validator.isEmail('andrew@example.com'))
+console.log(validator.isEmail('example.com'))
+console.log(validator.isURL('https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728848#content'))
+
+const blueMg = chalk.blue.underline("hola papi!!!!")
+
+console.log(chalk.red("Success!"))
+
+console.log(chalk.green("Success!"))
+console.log(blueMg)
