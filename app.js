@@ -25,7 +25,14 @@ console.log(validator.isURL('https://www.udemy.com/course/the-complete-nodejs-de
 
 const blueMg = chalk.blue.underline("hola papi!!!!")
 
-console.log(chalk.red("Success!"))
+console.log(chalk.red("Success! one"))
 
-console.log(chalk.green("Success!"))
+console.log(chalk.magenta("Success! two"))
 console.log(blueMg)
+
+console.log(process.argv); // this line to give the pwd own proyect output : [
+    // '/home/migul/.nvm/versions/node/v21.1.0/bin/node',  // wheres the node in this machine
+    // '/home/migul/Desktop/nodej_developer_course/app.js' // wheres file ejecut
+//   ]
+
+console.log(process.argv[0]);
